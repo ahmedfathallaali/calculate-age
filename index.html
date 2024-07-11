@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!------- Font Awesome ------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!------- Link Bootstrap ------->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <!------- Link Css ------->
+    <link rel="stylesheet" href="./css/style.css">
+    <!------- Link Font ------->
+    <link rel="shortcut icon" href="./ico/birthday.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+    <script src="./js/script.js"></script>
+    <title>احسب عمرك</title>
+</head>
+
+<body>
+
+    <!------- Header Section ------->
+    <div class="header">
+        <h1>احسب عمرك</h1>
+    </div>
+    <!------- Section ------->
+    <div class="container">
+        <div class="box-1">
+            <h2> احسب عمرك الان</h2>
+            <hr>
+            <h3>ادخل تاريخ ميلادك</h3>
+            <form action="">
+                <input type="date" id="dob">
+                    <div class="bute">
+                        <button onclick="calculateAge()" class="but">احسب </button>
+                    </div>
+            </form>
+           <div class="box2">
+            <div id="result"></div>
+           </div>
+        </div>
+    </div>
+    <!--------------- Footer --------------->
+    <footer>
+        <div class="foot">
+            <span>copyright &copy; Ahmed FAthalla </span>
+        </div>
+    </footer>
+
+    <!------------ Code Java Script ------------>
+    <!----- Popper ----->
+    <script src="./js/popper.min.js"></script>
+    <!----- Jquery ----->
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <!----- Bootstrap ----->
+    <script src="./js/bootstrap.js"></script>
+
+</body>
+
+</html>
