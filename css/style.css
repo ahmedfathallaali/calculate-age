@@ -65,8 +65,14 @@ input  {
     height: 50px;
     border-radius: 15px;
     text-align: center;
-    
-    
+}
+.container .mail {
+    margin: 15px;
+}
+.container .mail a {
+    margin-left: 10px;
+    font-size: 30px;
+    color: #06D6A0;
 }
 .foot {
     background-color: #386fa4;
